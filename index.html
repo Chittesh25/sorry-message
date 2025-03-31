@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I'm Sorry ❤️</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <audio autoplay loop>
+        <source src="love-song.mp3" type="audio/mpeg">
+    </audio>
+
     <div class="container">
         <h1>I'm Sorry ❤️</h1>
-        <p>Dear [Her Name],</p>
-        <p>I know I made a mistake, and I truly regret it. You mean the world to me, and I hate seeing you upset. Please forgive me. 💖</p>
+        <p id="message"></p>
         <p>With love,</p>
-        <p>[Your Name]</p>
+        <p>Chittesh</p>
         <button onclick="showLove()">Click if you forgive me</button>
     </div>
 
-    <script>
-        function showLove() {
-            alert("Yay! Sending virtual hugs! 🤗💕");
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
